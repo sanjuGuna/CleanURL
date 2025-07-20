@@ -23,10 +23,10 @@ const UrlShortenerForm = () => {
     <div className="url-shortener-container">
         <h2>URL Shortener</h2>
         <form onSubmit={handleSubmit}>
-        <label htmlFor="long_url">Enter URL:</label>
+        <label htmlFor="Long_Url">Enter URL:</label>
         <input
             type="url"
-            id="long_url"
+            id="Long_Url"
             value={longUrl}
             onChange={(e) => setLongUrl(e.target.value)}
             required

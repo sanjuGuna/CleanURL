@@ -11,6 +11,7 @@
     "api": "cd api && (if exist venv/Scripts/activate (call venv/Scripts/activate && python -m flask run --no-debugger) else (python -m flask run --no-debugger))"
   },
   "dependencies": {
+    "axios": "^1.10.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
