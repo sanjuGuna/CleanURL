@@ -22,7 +22,6 @@ A full-stack **URL Shortener SaaS application** that allows users to convert lon
 | Backend     | FastAPI (Python)  |
 | Database    | MySQL             |
 | Hashing     | SHA-256 + Base64  |
-| Deployment  | Railway / Vercel (optional) |
 
 ---
 
