@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import axios from 'axios';
-
+import './UrlShortener.css'
 const UrlShortenerForm = () => {
     const [longUrl, setLongUrl] = useState('');
     const [shortUrl, setShortUrl] = useState('');
